@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inicio de Votación</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Elecciones IV Asamblea comunes</h1>
+    <form id="loginForm">
+      <input type="text" id="voterId" placeholder="Ingrese su ID" required />
+      <button type="submit">Ingresar</button>
+      <p id="error" class="error"></p>
+    </form>
+  </div>
+
+  <!-- Bibliotecas necesarias -->
+  <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+  
+  <!-- Tu script de validación -->
+  <script src="js/validacion.js"></script>
+</body>
+</html>

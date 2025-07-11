@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Boletín 3 - Comisión de Ética</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+  <div class="container">
+    <h1> TARJETON COMISION DE ETICA</h1>
+    <H3>SELECCIONE HASTA 5 CANDIDATOS/AS</H3>
+    <div id="candidatos" class="grid"></div>
+    <button id="continuar" disabled>Finalizar votación</button>
+  </div>
+
+  <!-- Scripts -->
+   <script>
+  const archivo = 'data/comision.txt';
+  const maxSeleccion = 13;
+  const siguiente = 'final.html';
+</script>
+  <script src="js/boletinTemplate.js"></script>
+  <script src="js/boletin3.js"></script>
+</body>
+</html>
